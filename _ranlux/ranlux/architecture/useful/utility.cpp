@@ -21,6 +21,7 @@ inline bool is_match( const PBYTE addr, const PBYTE pat, const PBYTE msk ) {
 	return false;
 }
 
+// credits to the clown on uc
 PBYTE utility::findpattern( std::string module, const char *ccPattern ) {
 	HMODULE hModule = GetModuleHandleA( module.c_str() );
 
