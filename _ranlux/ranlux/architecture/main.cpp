@@ -10,23 +10,23 @@
 // IVEngine *g_pEngine;
 
 namespace globals {
-	uintptr_t				clientmodule;
-	ibaseclient				*client;
+	uintptr_t			clientmodule;
+	ibaseclient			*client;
 	vengineclient			*engine;
 	vgui::isurface			*surface;
 	vgui::ipanel			*panel;
-	IClientMode				*clientmode;
-	CEntityList				*entitylist;
+	IClientMode			*clientmode;
+	CEntityList			*entitylist;
 	IVEngineServer			*engineserver;
 	IVDebugOverlay			*debugoverlay;
 	IGameEventManager2		*gameevents;
 	IEngineTrace			*enginetrace;
 
-	c_csplayer				*localplayer;
+	c_csplayer			*localplayer;
 
 	std::vector<c_csplayer*>	playersinserver;
 
-	Vector2D				screensize;
+	Vector2D			screensize;
 }
 
 bool setup() {
